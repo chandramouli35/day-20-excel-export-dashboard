@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# 🚀 Day 20 – Excel Export Dashboard with Data Preprocessing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Exporting structured data isn’t fluff — it’s a feature that lives inside HR tools, analytics dashboards, and finance platforms. On Day 20, I built a React-based system that renders a dynamic table and converts it into a cleaned, readable XLSX file.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔧 What I built
+- Table rendering: employee data (name, salary, role, status)  
+- Client-side sorting by salary or role  
+- Cleanup logic: remove inactive or empty rows  
+- Header mapping: internal keys ➝ readable labels  
+- Export trigger using SheetJS (xlsx)  
+- Timestamped filename like employees_export_02-Aug-2025.xlsx  
+- Toast feedback on successful download
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧠 Why this matters
+Exporting is part of real workflows:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Internal teams need offline audit logs  
+- Finance teams need shareable salary reports  
+- HR needs to archive filtered employee lists  
+- Dashboards become usable when data isn’t locked in the UI
 
-### `npm test`
+This project taught me how to *turn UI into a shareable deliverable* — from preprocessing, header logic, and sheet generation to download feedback.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙ Stack & Concepts
+- *React.js* — Hooks, JSX table structure  
+- *SheetJS (xlsx)* — XLSX file export  
+- *Tailwind CSS* — minimal responsive layout  
+- *JavaScript sorting & data mutation*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ✅ Day 20 locked. My UI doesn't just render — it delivers exports with meaning.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow the full streak:  
+📍 [Chandra Mouli Tarigopula](https://www.linkedin.com/in/chandramoulitarigopula)  
+📦 [GitHub Projects](https://github.com/chandramoulitarigopula)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#React #ExcelExport #SheetJS #150DaysOfCode #FrontendDev #ProductEngineering
