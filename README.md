@@ -41,4 +41,10 @@ Follow the full streak:
 📍 [Chandra Mouli Tarigopula](https://www.linkedin.com/in/chandramoulitarigopula)  
 📦 [GitHub Projects](https://github.com/chandramoulitarigopula)
 
+
+npm install
+
+npm run build
+
+
 #React #ExcelExport #SheetJS #150DaysOfCode #FrontendDev #ProductEngineering
